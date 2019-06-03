@@ -1,6 +1,8 @@
-food = ['apple',"orange",'carrot']
+if (a==1):
+    print(a);
+elif (a==2):
+    print(a)
+else:
+    print("sorry")
 
-
-for f in food[:2]:
-    print(f)
-    print(len(f))
+ #we can use   is to compare string--+
