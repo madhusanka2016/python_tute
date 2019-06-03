@@ -1,18 +1,7 @@
-print("Range from begining")
-for x in range(10):
-    print(x)
+bookrack = 10
 
+while bookrack <20:
+    print(bookrack)
+    bookrack +=1
 
-# exclue the last
-
-print("Range from selecter")
-
-for x in range(5,10):
-    print(x)
-
-print("Range from countby")
-
-
-for x in range(5,10,2):
-    print(x)
-
+#if no increement, it will be infinity loop and never stops
