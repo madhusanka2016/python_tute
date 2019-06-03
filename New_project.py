@@ -1,8 +1,18 @@
-if (a==1):
-    print(a);
-elif (a==2):
-    print(a)
-else:
-    print("sorry")
+print("Range from begining")
+for x in range(10):
+    print(x)
 
- #we can use   is to compare string--+
+
+# exclue the last
+
+print("Range from selecter")
+
+for x in range(5,10):
+    print(x)
+
+print("Range from countby")
+
+
+for x in range(5,10,2):
+    print(x)
+
